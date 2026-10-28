@@ -1,0 +1,21 @@
+# Android Studio / Gradle
+.gradle/
+build/
+/app/build/
+.idea/
+*.iml
+.cxx/
+.externalNativeBuild/
+captures/
+
+# 내 PC 전용 설정 (SDK 경로 등) - 올리면 안 됨
+local.properties
+
+# 서명 키
+*.jks
+*.keystore
+
+# OS
+.DS_Store
+Thumbs.db
+.kotlin/
