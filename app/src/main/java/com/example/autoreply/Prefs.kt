@@ -24,6 +24,14 @@ class Prefs(context: Context) {
         get() = sp.getInt(KEY_COOLDOWN, 30)
         set(v) = sp.edit().putInt(KEY_COOLDOWN, v).apply()
 
+    /** 화면 목록에 표시할 번호들 (입력 순서 유지) */
+    fun numbers(): List<String> =
+        numbersText.lines().map { it.trim() }.filter { it.isNotEmpty() }
+
+    fun setNumbers(list: List<String>) {
+        numbersText = list.joinToString("\n")
+    }
+
     /** 비교용으로 정규화한 번호 목록 */
     fun targetNumbers(): Set<String> =
         numbersText.lines().map { normalize(it) }.filter { it.isNotEmpty() }.toSet()

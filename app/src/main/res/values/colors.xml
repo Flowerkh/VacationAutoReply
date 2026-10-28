@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#5B4CF0</color>
+    <color name="primary_dark">#4636D9</color>
+    <color name="primary_soft">#EEECFF</color>
+    <color name="bg">#F6F5FC</color>
+    <color name="card">#FFFFFF</color>
+    <color name="text">#1D1A3B</color>
+    <color name="text_sub">#8E8BA8</color>
+    <color name="ok">#1FAE7A</color>
+    <color name="ok_soft">#E2F6EE</color>
+    <color name="bad">#EF4D68</color>
+    <color name="bad_soft">#FDE8EC</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+</resources>

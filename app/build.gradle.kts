@@ -11,8 +11,8 @@ android {
         applicationId = "com.example.autoreply"
         minSdk = 29          // CallScreeningService 역할(ROLE_CALL_SCREENING)은 Android 10부터
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "2.0"
     }
 
     buildTypes {
